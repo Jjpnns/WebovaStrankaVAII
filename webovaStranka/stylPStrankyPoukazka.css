@@ -1,0 +1,83 @@
+.navbar {
+    background-color: #333333;
+    font-family: "Segoe Script";
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+
+h2 {
+    font-family: "Segoe Script";
+    font-weight: bold;
+    margin: 20px;.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+
+}
+h3 {
+    font-family: "Segoe Script";
+    text-align: center;
+    font-size: medium;
+    display: block;
+    margin: 20px auto;
+    white-space: pre-line;
+    max-width: 50%;
+    font-weight: bold;
+
+}
+.gombik {
+    font-family: "Segoe Script";
+    text-align: center;
+    font-size: medium;
+    display: block;
+    margin: 20px auto;
+    white-space: pre-line;
+    max-width: 50%;
+    font-weight: bold;
+}
+
+.obsah {
+    display: flex;
+}
+
+.textNaPoukaz {
+    float: right;
+    flex: 1;
+    padding: 10px;
+    font-family: "Calibri";
+}
+
+
+.obrazokNaPoukaz {
+    float: left;
+    margin-right: 20px;
+    flex: 1;
+    padding: 30px;
+
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Greeny</title>
+    <link rel="icon" type="image/png" href="Tea_plant.png"/>
+    <link rel="stylesheet" href="stylPStranky.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel ="stylesheet" href="stylPStranky.css">
+
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <img src="obrazky/Tea_plant.png" alt="Greeny" width="30" height="24" >
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="uvodnaS.html">Domov</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produkty</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#kvety">Kvety</a></li>
+                        <li><a class="dropdown-item" href="#rastliny">Rastliny</a></li>
+                        <li><a class="dropdown-item" href="#Byliny">Byliny</a></li>
+                        <li><a class="dropdown-item" href="#doplnky">Doplnky</a></li>
+                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Pomoc</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Kontakt.html">Kontakt</a></li>
+                        <li><a class="dropdown-item" href="#napistenam">Napíšte nám</a></li>
+                    </ul>
+                </li>
+            </ul>
+                <div class="napravo">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-cart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prihlasenie.html">Prihlásiť</a>
+                    </li>
+                    <li class="nav-item">
+                        <form role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+                    </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="obrazky/plants.jpg">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="obrazky/flowers.jpg" >
+
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="obrazky/herbs.jpg"  >
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="obrazky/yankee-christmas-group2-008-hrc-1635950720.jpg"  >
+    </div>
+</div>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+<a class="textik" href="#">
+<h1> Vitajte!</h1>
+</a>
+<h2> Niečo o nás</h2>
+<h3>Vitajte na stránke nášho kvetinárstva a záhradníckom centre! Sme Vaším spoľahlivým zdrojom pre krásne kvety, zdravé rastliny a liečivé byliny. S dlhoročnými skúsenosťami a vášňou pre záhradníctvo vám prinášame rozmanitý výber kvalitných produktov pre vašu záhradu a interiér.</h3>
+
+<h2>Najpredávanejšie produkty</h2>
+<div class="najpredavanejsie">
+    <div class="produkt">
+        <h3>Monstera</h3>
+        <img src="rastliny/monstera.jpeg" />
+        <p>
+            Cena 56.50&euro; ;
+            <button>Pridať do košíka</button>
+        </p>
+    </div>
+
+    <div class="produkt">
+        <h3>Hortenzia </h3>
+        <img src="kvety/hortenzia.jpg" />
+        <p>
+            Cena 25&euro;
+            <button>Pridať do košíka</button>
+        </p>
+    </div>
+
+    <div class="produkt">
+        <h3>Šalvia</h3>
+        <img src="bylinky/SALVIAOFFICINALISSalviareal_2.jpg"/>
+        <p>
+            Cena 7.50&euro;
+            <button>Pridať do košíka</button>
+        </p>
+    </div>
+
+    <div class="produkt">
+        <h3>Yankee candle - Pumpkin Patch</h3>
+        <img src="sviecky/Yankee.jpg"  />
+        <p>
+            Cena 11.50&euro;;
+            <button>Pridať do košíka</button>
+        </p>
+    </div>
+</div>
+
+<div class ="voucher"></div>
+<h2>Darčekový poukaz</h2>
+<p>Hľadáte dokonalý darček pre vašich blízkych? Nieste si istý, čo by ich mohlo potešiť? Máme pre vás riešenie! Naše darčekové poukazy sú ideálnym darčekom pre všetkých milovníkov kvetín, rastlín a byliniek. S týmto poukazom si môžu slobodne vybrať tie najkrajšie kvety a najzdravšie rastliny, ktoré im prinesú radosť a krásu do domova.</p>
+<h3>Prečo naše darčekové poukazy?</h3>
+<ul>
+    <li>Široký výber: V našom kvetinárstve nájdu nespočetné množstvo druhov kvetín, exotických rastlín a liečivých bylín. Vďaka darcovskému poukazu si môžu vybrať tie, ktoré ich najviac nadchli.</li>
+
+    <li>Kvalita a krása: Každý z našich produktov je starostlivo vybraný a pestovaný s láskou a starostlivosťou. Vaši blízki si tak môžu byť istí, že dostávajú rastliny v najlepšom stave.</li>
+
+    <li>Flexibilita: Darcovský poukaz je flexibilnou voľbou, ktorá umožňuje obdarovaným slobodne vybrať, kedy a ako chcú svoj darček využiť.</li>
+       </ul>
+<div class = "klikNaNakupVouchera">
+    <h3><a href="PoukazkaStrana.html">Ako zakúpiť darčekový poukaz</a></h3>
+</div>
+</div>
+<div class="obrazok-container">
+    <img src="voucher/voucher.png" alt="Obrázok" class="stredny-obrazok">
+</div>
+
+<div class="b-example-divider"></div>
+<div class="container">
+    <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Kontakt</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Domov</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kontakt</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Napíšte nám</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">O nás</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Produkty</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kvety</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rastliny</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Byliny</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Doplnky</a></li>
+                </ul>
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Odoberaj naše novinky</h5>
+                    <p>Mesačný prehľad noviniek a zliav</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Emailova adresa</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Odoberať</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Greeny, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeny</title>
+  <link rel="icon" type="image/png" href="Tea_plant.png"/>
+  <link rel="stylesheet" href="Vyplnovanie.css">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel ="stylesheet" href="Vyplnovanie.css">
+
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Fourth navbar example">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">
+      <img src="obrazky/Tea_plant.png" alt="Greeny" width="30" height="24" >
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="uvodnaS.html">Domov</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Produkty</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#kvety">Kvety</a></li>
+            <li><a class="dropdown-item" href="#rastliny">Rastliny</a></li>
+            <li><a class="dropdown-item" href="#Byliny">Byliny</a></li>
+            <li><a class="dropdown-item" href="#doplnky">Doplnky</a></li>
+          </ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Pomoc</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Kontakt.html">Kontakt</a></li>
+            <li><a class="dropdown-item" href="#napistenam">Napíšte nám</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="napravo">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="bi bi-cart"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prihlasenie.html">Prihlásiť</a>
+          </li>
+          <li class="nav-item">
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </li>
+        </ul>
+      </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Zaregistruj sa</h1>
+    <p>Prosím Vás, vyplnte nasledujúce údaje</p>
+    <hr>
+    <label for="meno"><b>Meno</b></label>
+    <input type="text" placeholder="Zadaj Meno" id="meno" name="meno" required>
+    <label for="priezvisko"><b>Priezvisko</b></label>
+    <input type="text" placeholder="Zadajte Priezvisko" id="priezvisko" name="priezvisko" required>
+
+    <label for="meno"><b>Prihlasovacie Meno</b></label>
+    <input type="text" placeholder="Zadaj Prihlasovacie Meno" id="prihlasovacieMeno" name="prihlasovacieMeno" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Zadajte Email" id="email" name="email" required>
+
+    <label for="psw"><b>Heslo</b></label>
+    <input type="password" placeholder="Zadajte Heslo" id="psw" name="psw" required>
+
+    <label for="psw-repeat"><b>Zopakujte Heslo</b></label>
+    <input type="password" placeholder="Zopakujte Heslo" id="psw-repeat" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Zapamätať si ma
+    </label>
+
+    <p>Vytvorením účtu súhlasíte s našimi <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signup">Prihlásiť sa</button>
+    </div>
+  </div>
+</form>
+
+<script>
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+
+<div class="b-example-divider"></div>
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Kontakt</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Domov</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kontakt</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Napíšte nám</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">O nás</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Produkty</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kvety</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rastliny</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Byliny</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Doplnky</a></li>
+        </ul>
+      </div>
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Odoberaj naše novinky</h5>
+          <p>Mesačný prehľad noviniek a zliav</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Emailova adresa</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Odoberať</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Greeny, Inc. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+
+
+</body>
+</html>
